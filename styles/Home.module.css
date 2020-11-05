@@ -1,122 +1,124 @@
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.footer {
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.h1 {
+    color: #f6f5f5;
 }
 
-.footer img {
-  margin-left: 0.5rem;
+.section {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
-}
-
-.card {
-  margin: 1rem;
-  flex-basis: 45%;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
 }
 
 .logo {
-  height: 1em;
+    width: 80px;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.menu_list {
+    text-decoration: none;
+    margin-right: 2rem;
+    color: white;
+    font-size: 18px;
+    font-weight: medium;
+}
+
+.register_button {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 18px;
+    font-weight: medium;
+    border: none;
+    background-color: #e94560;
+    border-radius: 2px;
+}
+
+.banner_title {
+    margin-bottom: 1rem;
+    font-size: 90px;
+}
+
+.banner_title_second {
+    font-size: 90px;
+    color: #e94560;
+}
+
+.banner_subtitle {
+    margin-bottom: 1rem;
+    max-width: 60%;
+    font-size: 18px;
+}
+
+.banner_subtitle_second {
+    font-size: 18px;
+    color: #e94560;
+    margin-bottom: 1rem;
+}
+
+.watch_video {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: #e94560;
+    max-width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    border-radius: 2px;
+}
+
+.watch_video_icon {
+    color: white;
+    background-color: transparent;
+    margin-right: 8px;
+}
+
+.watch_video_title {
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.footer {
+    margin-bottom: 1rem;
+}
+
+.footer_title {
+    font-weight: normal;
+}
+
+.horizontal_line {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer_sponsors {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_sponsors_item {
+    margin-right: 1rem;
+    width: 75px;
+    object-fit: cover;
+    object-position: center;
 }
