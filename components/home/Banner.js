@@ -1,5 +1,4 @@
-import styles from '../styles/Home.module.css'
-
+import styles from '../../styles/Home.module.css'
 const Banner = () => {
     return (
         <div className={styles.banner}>
