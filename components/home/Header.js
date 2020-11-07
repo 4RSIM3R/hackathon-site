@@ -17,9 +17,13 @@ const Header = () => {
                 <Link href="/agenda">
                     <a className={styles.menu_list} >Agenda</a>
                 </Link>
-                <a className={styles.menu_list} onClick={e => clickHandle()}>Contact Us</a>
+                <Link href="https://stackoverflow.com/" passHref={true}>
+                    <a className={styles.menu_list} >Contact Us</a>
+                </Link>
             </div>
-            <button className={styles.register_button}>Register</button>
+            <Link href="https://stackoverflow.com/" passHref={true}>
+                <button className={styles.register_button}>Register</button>
+            </Link>
         </div>
     )
 }
