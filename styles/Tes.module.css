@@ -1,0 +1,174 @@
+.header {
+    display: grid;
+    grid-template-areas: "logo  nav  register";
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.logo {
+    width: 75px;
+}
+
+.register_wrapper {
+    display: grid;
+    align-items: center;
+    justify-items: end;
+    grid-template-columns: repeat(1, auto);
+}
+
+.register {
+    width: 12rem;
+    height: 3rem;
+    background-color: #0779e4;
+    border: none;
+    border-radius: 2%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hamburger_wrapper {
+    display: none;
+}
+
+.nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    justify-items: end;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.banner_wrapper {
+    margin-top: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner_title {
+    font-size: 72px;
+    text-align: center;
+}
+
+.banner_subtitle {
+    font-size: 24px;
+    text-align: center;
+    max-width: 75%;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.video_player {
+    margin-top: 3rem;
+}
+
+.event_wrapper {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.event_title {
+    font-size: 36px;
+}
+
+.event_wrapper .card_wrapper {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: grid;
+    grid-template-areas: "card_body" "card_body" "card_body";
+    grid-template-columns: repeat(3, auto);
+    justify-items: center;
+    align-items: center;
+    column-gap: 3rem;
+    border: none;
+}
+
+.event_wrapper .card_wrapper .card_body {
+    padding: 1rem;
+    border-radius: 1%;
+    background-color: whitesmoke;
+    text-align: start;
+}
+
+.event_wrapper .card_wrapper .card_body h4 {
+    background-color: transparent;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.event_wrapper .card_wrapper .card_body p {
+    background-color: transparent;
+    color: black;
+}
+
+.event_wrapper .card_wrapper .card_body button {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 1%;
+    background-color: #3e64ff;
+    font-size: 16px;
+}
+
+@media (max-width: 700px) {
+    .logo {
+        width: 40px;
+    }
+    .header {
+        grid-template-areas: "logo hamburger" "nav nav";
+    }
+    .nav {
+        margin-top: 2rem;
+        grid-template-rows: repeat(4, auto);
+        grid-template-columns: none;
+        row-gap: 20px;
+        justify-items: center;
+    }
+    .hamburger_wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        align-items: center;
+        justify-items: end;
+    }
+    .hamburger {
+        background-color: transparent;
+        width: 72px;
+        height: 72px;
+    }
+    .register_wrapper {
+        display: none;
+    }
+    .banner_wrapper {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .banner_title {
+        font-size: 48px;
+    }
+    .banner_subtitle {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 400;
+        margin-top: 1rem;
+    }
+    .video_player {
+        height: 180px !important;
+        width: 320px !important;
+    }
+    .event_wrapper .card_wrapper {
+        grid-template-areas: "card_body";
+        grid-template-columns: repeat(1, auto);
+        justify-items: center;
+        row-gap: 20px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
