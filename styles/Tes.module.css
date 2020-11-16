@@ -41,6 +41,7 @@
 
 .nav a {
     text-decoration: none;
+    font-size: 18px;
 }
 
 .banner_wrapper {
@@ -64,13 +65,20 @@
     margin-top: 1rem;
 }
 
+.banner_location {
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .video_player {
     margin-top: 3rem;
+    width: 800px !important;
+    height: 450px !important;
 }
 
 .event_wrapper {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 6rem;
 }
 
 .event_title {
@@ -116,6 +124,43 @@
     border-radius: 1%;
     background-color: #3e64ff;
     font-size: 16px;
+}
+
+.timeline_component {
+    margin-top: 2rem;
+}
+
+.timeline_wrapper {
+    margin-top: 6rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.sponsor_wrapper {
+    margin-top: 6rem;
+}
+
+.sponsor_title {
+    font-size: 36px;
+}
+
+.sponsor_subtitle {
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.placeholder_wrapper {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: grid;
+    grid-template-areas: "aws_placeholder" "pasdev_placeholder";
+    grid-template-columns: repeat(2, auto);
+    justify-items: center;
+    align-items: center;
+    column-gap: 3rem;
+    border: none;
 }
 
 @media (max-width: 700px) {
@@ -170,5 +215,23 @@
         row-gap: 20px;
         margin-left: 2rem;
         margin-right: 2rem;
+    }
+    .placeholder_wrapper {
+        grid-template-columns: repeat(1, auto);
+        justify-items: center;
+        row-gap: 20px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .aws_placeholder {
+        height: 6rem;
+        width: 18rem;
+        object-fit: contain;
+    }
+
+    .pasdev_placeholder {
+        height: 9rem;
+        object-fit: contain;
     }
 }
