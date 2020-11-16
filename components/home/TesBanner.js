@@ -51,7 +51,7 @@ const TesBanner = () => {
             <div className={s.timeline_wrapper}>
                 <h2 className={s.sponsor_title}>Timeline</h2>
                 <div className={s.timeline_component}>
-                    <Chrono mode="VERTICAL_ALTERNATING" hideControls="100" theme={{ primary: "white", secondary: "#3e64ff" }} items={items} />
+                    <Chrono mode="VERTICAL_ALTERNATING" hideControls="100" theme={{ primary: "white", secondary: "#3e64ff"}} items={items} />
                 </div>
             </div>
             <div className={s.sponsor_wrapper}>
