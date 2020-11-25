@@ -8,10 +8,10 @@ const TesHeader = () => {
         <header className={s.header}>
             <img src="https://icons-for-free.com/iconfiles/png/512/logo+react+react+js+icon-1320184811840217251.png" alt="" srcset="" className={s.logo} />
             {visible && (<nav className={s.nav}>
-                <a href="">Home</a>
-                <a href="">Get Started</a>
+                <a href="">Beranda</a>
+                <a href="">Aturan Main</a>
                 <a href="">FAQ</a>
-                <a href="">Contact Us</a>
+                <a href="">Kontak Kami</a>
             </nav>)}
             <div className={s.hamburger_wrapper}>
                 {
