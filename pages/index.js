@@ -1,18 +1,15 @@
-import styles from "../styles/Home.module.css";
-import Header from "../components/home/Header";
-import Banner from "../components/home/Banner";
-import Footer from "../components/home/Footer";
+import TesHeader from '../components/home/TesHeader'
+import TesBanner from '../components/home/TesBanner'
+import TesFooter from '../components/home/TesFooter'
 
-function Home() {
-  return (
-    <div className={styles.main}>
-      <div className={styles.section}>
-        <Header />
-        <Banner />
-        <Footer />
-      </div>
-    </div>
-  )
+const TesIndex = () => {
+    return (
+        <>
+            <TesHeader/>
+            <TesBanner/>
+            <TesFooter/>
+        </>
+    )
 }
 
-export default Home
+export default TesIndex

@@ -1,4 +1,5 @@
 import s from '../../styles/Tes.module.css'
+import SiteMaps from '../utils/SiteMaps'
 
 const TesFooter = () => {
     return (
@@ -7,7 +8,7 @@ const TesFooter = () => {
                 <div className={s.maps_wrapper}>
                     <h3 className={s.maps_title}>Hackathon Locations</h3>
                     <div className={s.maps_content}>
-
+                        <SiteMaps/>
                     </div>
                 </div>
             </div>

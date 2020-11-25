@@ -8,6 +8,7 @@
     "start": "npx next start"
   },
   "dependencies": {
+    "google-map-react": "^2.1.9",
     "next": "10.0.1",
     "react": "17.0.1",
     "react-chrono": "^1.7.4",
