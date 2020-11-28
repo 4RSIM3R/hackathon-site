@@ -6,5 +6,8 @@ const localeSubpaths = {
 }
 
 module.exports = {
-    rewrites : async () => nextI18NextRewrites(localeSubpaths)
+    rewrites: async () => nextI18NextRewrites(localeSubpaths),
+    publicRuntimeConfig: {
+        localeSubpaths,
+    }
 }
