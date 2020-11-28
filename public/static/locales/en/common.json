@@ -1,5 +1,14 @@
 {
     "Banner Tagline First": "A competition to answer pesantren problem with digital solution",
     "Banner Tagline Second": "Creating technology and giving solution",
+<<<<<<< HEAD
     "Attend Reason": "Why you should attend ?"
+=======
+    "Attend Reason": "Why you should attend ?",
+    "First Card Title" : "Firstly At PonPes",
+    "First Card" : "Congratulations! You have the opportunity to contribute to the first Hackathon held at the boarding school. So what are you waiting for? We are waiting for your solution!",
+    "First Card btn" : "Hackathon at PonPes?",
+    "Second Card Title" : "Free Tools",
+    "Second Card" : "At this santri's Hackathon, participants will get a free AWS educate account and of course the AWS solution will give you full power to make your dreams come true."
+>>>>>>> Copywriting Added
 }

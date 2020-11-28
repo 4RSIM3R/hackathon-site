@@ -1,5 +1,33 @@
 {
     "Banner Tagline First": "Kompetisi untuk menjawab berbagai problem pesantren dengan solusi digital.",
     "Banner Tagline Second": "Menciptakan teknologi dan memberi solusi",
+<<<<<<< HEAD
     "Attend Reason": "Kenapa Harus Ikut ?"
+=======
+    "Attend Reason": "Kenapa Harus Ikut ?",
+    "First Card Title" : "Pertama Kali di Pondok Pesantren",
+    "First Card" : "Selamat! kamu berkesempatan untuk berkontribusi di Hackathon pertamayang diselenggarakan di ponpes. Jadi tunggu apalagi? Kami tunggu Solusimu!",
+    "First Card btn" : "Hackathon di PonPes ?",
+    "Second Card Title" : "Fasilitas Gratis",
+    "Second Card" : "Di Hackathon santri kali ini, peserta akan mendapatkan akun AWS educate gratis dan tentunya solusi AWS akan memberimu kekuatan penuh untuk mewujudkan mimpimu",
+    "Second Card btn" : "Emang Dapet Apa Aja ?",
+    "Third Card Title" : "Dan Masih Banyak Lagi",
+    "Third Card" : "Dan tentunya, di Hackathon santri kali ini banyak sekali benefit yang kamu dapatkan, mulai dari teman baru hingga insight dan skill juga akan kamu dapatkan",
+    "Third Card btn" : "Let's Rock!",
+    "Sponsor Title" : "Sponsor Kami",
+    "Sponsors Subtitle" : "Membuat Hackathon Ini Mungkin",
+    "Maps Title" : "Lokasi Hackathon",
+    "Footer Title" : "Nunggu Apa Lagi?",
+    "Footer Caption" : "Kita berkolaborasi dengan brand dan banyak orang yang ambisius; Ayo bangun sesuatu yang mengagumkan bersama!",
+    "First Footer Social Media" : "Facebook",
+    "Second Footer Social Media" : "Twitter",
+    "Third Footer Seocial Media" : "Instagram",
+    "First Footer Menu" : "Home",
+    "Second Footer Menu" : "Get Started",
+    "Third Footer Menu" : "FAQ",
+    "Fourth Footer Menu" : "Sponsorship",
+    "Fifth Footer Menu" : "Timeline",
+    "Sixth Footer Menu" : "Contact Us",
+    "End Footer" : "Make With 💙 By Sanjos DEV"
+>>>>>>> Copywriting Added
 }

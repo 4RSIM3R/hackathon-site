@@ -1,4 +1,9 @@
 const NextI18Next = require('next-i18next').default
+<<<<<<< HEAD
+=======
+const { localeSubpaths } = require('next/config').default().publicRuntimeConfig
+const path = require('path')
+>>>>>>> Copywriting Added
 
 module.exports = new NextI18Next({
     localeSubpaths: {
