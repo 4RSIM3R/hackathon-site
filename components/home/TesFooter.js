@@ -1,5 +1,9 @@
 import s from '../../styles/Tes.module.css'
 import SiteMaps from '../utils/SiteMaps'
+<<<<<<< HEAD
+=======
+import { withTranslation } from '../../i18n'
+>>>>>>> Copywriting Added
 
 const TesFooter = () => {
     return (
@@ -40,4 +44,8 @@ const TesFooter = () => {
     )
 }
 
+<<<<<<< HEAD
 export default TesFooter
+=======
+export default withTranslation('div')(TesFooter)
+>>>>>>> Copywriting Added
