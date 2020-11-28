@@ -1,7 +1,6 @@
 import s from '../../styles/Tes.module.css'
 import ReactPlayer from "react-player"
 import { Chrono } from 'react-chrono'
-import { withTranslation } from '../../i18n'
 
 const TesBanner = () => {
 
@@ -67,4 +66,4 @@ const TesBanner = () => {
     )
 }
 
-export default withTranslation('div')(TesBanner)
+export default TesBanner

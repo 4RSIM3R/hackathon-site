@@ -1,6 +1,5 @@
 import s from '../../styles/Tes.module.css'
 import { useState } from 'react'
-import { withTranslation } from '../../i18n'
 
 const TesHeader = () => {
 
@@ -30,4 +29,4 @@ const TesHeader = () => {
     )
 }
 
-export default withTranslation('header')(TesHeader)
+export default TesHeader

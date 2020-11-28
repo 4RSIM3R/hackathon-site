@@ -1,6 +1,5 @@
 import s from '../../styles/Tes.module.css'
 import SiteMaps from '../utils/SiteMaps'
-import { withTranslation } from '../../i18n'
 
 const TesFooter = () => {
     return (
@@ -41,4 +40,4 @@ const TesFooter = () => {
     )
 }
 
-export default withTranslation('div')(TesFooter)
+export default TesFooter

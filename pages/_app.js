@@ -1,5 +1,4 @@
 import '../styles/globals.css'
-import { appWithTranslation } from '../i18n'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -7,4 +6,4 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default appWithTranslation(MyApp)
+export default MyApp

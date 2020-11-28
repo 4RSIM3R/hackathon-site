@@ -1,8 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { withTranslation } from '../i18n'
-
 const Error = ({ statusCode, t }) => (
     <p>
         {statusCode
@@ -33,4 +31,4 @@ Error.propTypes = {
     t: PropTypes.func.isRequired,
 }
 
-export default withTranslation('common')(Error)
+export default Error
