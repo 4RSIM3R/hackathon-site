@@ -1,10 +1,7 @@
 import s from '../../styles/Tes.module.css'
 import ReactPlayer from "react-player"
 import { Chrono } from 'react-chrono'
-<<<<<<< HEAD
-=======
 import { withTranslation } from '../../i18n'
->>>>>>> Copywriting Added
 
 const TesBanner = () => {
 
@@ -70,8 +67,4 @@ const TesBanner = () => {
     )
 }
 
-<<<<<<< HEAD
-export default TesBanner
-=======
 export default withTranslation('div')(TesBanner)
->>>>>>> Copywriting Added

@@ -1,9 +1,6 @@
 import s from '../../styles/Tes.module.css'
 import { useState } from 'react'
-<<<<<<< HEAD
-=======
 import { withTranslation } from '../../i18n'
->>>>>>> Copywriting Added
 
 const TesHeader = () => {
 
@@ -33,8 +30,4 @@ const TesHeader = () => {
     )
 }
 
-<<<<<<< HEAD
-export default TesHeader
-=======
 export default withTranslation('header')(TesHeader)
->>>>>>> Copywriting Added
