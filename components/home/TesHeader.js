@@ -2,6 +2,9 @@ import s from "../../styles/Tes.module.css";
 import { useState } from "react";
 
 const TesHeader = () => {
+  const handleClick = () => {
+    window.open("https://s.id/hackathonsantri2021");
+  };
   const [visible, setvisible] = useState(true);
   return (
     <header className={s.header}>
@@ -13,10 +16,10 @@ const TesHeader = () => {
       />
       {visible && (
         <nav className={s.nav}>
-          <a href="">Beranda</a>
-          <a href="">Aturan Main</a>
-          <a href="">FAQ</a>
-          <a href="">Kontak Kami</a>
+          <a href="/">Beranda</a>
+          <a href="https://s.id/technicalhs2021">Aturan Main</a>
+          <a href="https://s.id/faqhs2021">FAQ</a>
+          <a href="https://linktr.ee/hackathonsantri">Kontak Kami</a>
         </nav>
       )}
       <div className={s.hamburger_wrapper}>
@@ -59,7 +62,9 @@ const TesHeader = () => {
         )}
       </div>
       <div className={s.register_wrapper}>
-        <button className={s.register}>Daftar</button>
+        <button className={s.register} onClick={handleClick}>
+          Daftar
+        </button>
       </div>
     </header>
   );

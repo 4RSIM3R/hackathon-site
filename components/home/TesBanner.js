@@ -20,7 +20,9 @@ const TesBanner = () => {
 
   return (
     <div className={s.banner_wrapper}>
-      <h1 className={s.banner_title}>Hackathon Santri 2021</h1>
+      <h1 className={s.banner_title} id="home">
+        Hackathon Santri 2021
+      </h1>
       <h3 className={s.banner_subtitle}>
         Kompetisi untuk menjawab berbagai problem pesantren dengan solusi
         digital. <br /> <span>Menciptakan teknologi dan memberi solusi</span>
@@ -32,7 +34,9 @@ const TesBanner = () => {
         url="https://www.youtube.com/watch?v=UVCP4bKy9Iw"
       />
       <div className={s.event_wrapper}>
-        <h2 className={s.event_title}>Why You Should Attend ?</h2>
+        <h2 className={s.event_title} id="getstarted">
+          Why Should You Attend ?
+        </h2>
         <div className={s.card_wrapper}>
           <div className={s.card_body}>
             <h4>Firstly At Ponpes</h4>
@@ -41,7 +45,7 @@ const TesBanner = () => {
               pertama yang di selenggarakan di ponpes. Jadi tunggu apalagi, kami
               tunggu solusimu
             </p>
-            <button>Hakcathon Di Ponpes ?</button>
+            <button>Hackathon Di Ponpes ?</button>
           </div>
           <div className={s.card_body}>
             <h4>Free Tools</h4>
@@ -64,7 +68,9 @@ const TesBanner = () => {
         </div>
       </div>
       <div className={s.timeline_wrapper}>
-        <h2 className={s.sponsor_title}>Timeline</h2>
+        <h2 className={s.sponsor_title} id="timeline">
+          Timeline
+        </h2>
         <div className={s.timeline_component}>
           <Chrono
             mode="VERTICAL_ALTERNATING"
@@ -75,7 +81,9 @@ const TesBanner = () => {
         </div>
       </div>
       <div className={s.sponsor_wrapper}>
-        <h2 className={s.sponsor_title}>Our Sponsors</h2>
+        <h2 className={s.sponsor_title} id="sponsor">
+          Our Sponsors
+        </h2>
         <h4 className={s.sponsor_subtitle}>Making This Hackathon Possible</h4>
         <div className={s.placeholder_wrapper}>
           <img
