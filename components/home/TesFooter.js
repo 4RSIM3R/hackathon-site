@@ -29,14 +29,14 @@ const TesFooter = () => {
               <a href="">Instagram</a>
             </div>
             <div className={s.content_menu_list}>
-              <a href="">Home</a>
-              <a href="">Get Started</a>
+              <a href="#home">Home</a>
+              <a href="#getstarted">Get Started</a>
               <a href="">FAQ</a>
             </div>
             <div className={s.content_menu_list}>
-              <a href="">Sponsorship</a>
-              <a href="">Timeline</a>
-              <a href="">Contact Us</a>
+              <a href="#sponsor">Sponsorship</a>
+              <a href="#timeline">Timeline</a>
+              <a href="https://linktr.ee/hackathonsantri">Contact Us</a>
             </div>
           </div>
           <p className={s.make_with}>Make With 💙 By Sanjos DEV</p>
