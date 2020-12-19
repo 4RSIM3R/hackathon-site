@@ -9,7 +9,7 @@ const TesHeader = () => {
   return (
     <header className={s.header}>
       <img
-        src="/logo.png"
+        src="/new.png"
         alt="Hackathon Santri 2021"
         srcset=""
         className={s.logo}
@@ -19,7 +19,7 @@ const TesHeader = () => {
           <a href="/">Beranda</a>
           <a href="https://s.id/technicalhs2021">Aturan Main</a>
           <a href="https://s.id/faqhs2021">FAQ</a>
-          <a href="https://linktr.ee/hackathonsantri">Kontak Kami</a>
+          <a href="https://kirimwa.id/tanya-hackahon-santri">Kontak Kami</a>
         </nav>
       )}
       <div className={s.hamburger_wrapper}>

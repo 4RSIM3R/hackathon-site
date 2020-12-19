@@ -5,16 +5,16 @@ import { Chrono } from "react-chrono";
 const TesBanner = () => {
   const items = [
     {
-      title: "1 Desember 2020 - 20 Februari 2021",
-      cardSubtitle: "Pendaftaran mulai dibuka. Siapkan ide kalian!",
+      title: "17 Desember 2020 - 15 Januari 2021",
+      cardSubtitle: "Pendafatran dibuka bagi seluruh peserta yang memenuhi syaarat. Di selang waktu ini kamu dapat membangun solusimu dan tentunya sebagai peserta kamu juga dapat bertukar ide dengan peserta lain di grup whatsapp.",
     },
     {
-      title: "22 Februari 2021 *belum fiks",
-      cardSubtitle: "Penyisihan.",
+      title: "16 Januari 2021",
+      cardSubtitle: "Babak penyisihan awal Hackathon Santri 2021. Hanya 5 team terbaik yang akan mengikuti final di tempat",
     },
     {
-      title: "22 Maret 2021 *belum fiks",
-      cardSubtitle: "Final.",
+      title: "31 Januari 2021",
+      cardSubtitle: "Final, sekaligus menjadi penutup rangkaian Hackathon Santri 2021.",
     },
   ];
 
@@ -35,7 +35,7 @@ const TesBanner = () => {
       />
       <div className={s.event_wrapper}>
         <h2 className={s.event_title} id="getstarted">
-          Why Should You Attend ?
+          Kenapa Harus Ikutan ?
         </h2>
         <div className={s.card_wrapper}>
           <div className={s.card_body}>
@@ -45,7 +45,7 @@ const TesBanner = () => {
               pertama yang di selenggarakan di ponpes. Jadi tunggu apalagi, kami
               tunggu solusimu
             </p>
-            <button>Hackathon Di Ponpes ?</button>
+            <button>Yukk daftar</button>
           </div>
           <div className={s.card_body}>
             <h4>Free Tools</h4>
@@ -54,7 +54,7 @@ const TesBanner = () => {
               educate gratis dan tentunya solusi AWS akan memberimu kekuatan
               penuh untuk mewujudkan mimpimu
             </p>
-            <button>Emang Dapet Apa Aja ?</button>
+            <button>Daftar Sebelah Sini</button>
           </div>
           <div className={s.card_body}>
             <h4>And Many More</h4>
@@ -82,9 +82,9 @@ const TesBanner = () => {
       </div>
       <div className={s.sponsor_wrapper}>
         <h2 className={s.sponsor_title} id="sponsor">
-          Our Sponsors
+          Sponsor Kami
         </h2>
-        <h4 className={s.sponsor_subtitle}>Making This Hackathon Possible</h4>
+        <h4 className={s.sponsor_subtitle}>Yang banyak berkontribusi pada event kali ini</h4>
         <div className={s.placeholder_wrapper}>
           <img
             src="https://d1.awsstatic.com/WWPS/AWS_Educate_Logo2.ff6bf9db3e3202fb1fa50e7062a0ef12b4897a30.png"
@@ -92,7 +92,7 @@ const TesBanner = () => {
             className={s.aws_placeholder}
           />
           <img
-            src="https://avatars2.githubusercontent.com/u/36590366?s=200&v=4"
+            src="/putih-warna.png"
             alt=""
             className={s.pasdev_placeholder}
           />

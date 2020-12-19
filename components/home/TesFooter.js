@@ -24,19 +24,16 @@ const TesFooter = () => {
           </p>
           <div className={s.content_menu_wrapper}>
             <div className={s.content_menu_list}>
-              <a href="">Facebook</a>
-              <a href="">Twitter</a>
-              <a href="">Instagram</a>
+              <a href="https://www.instagram.com/hackathonsantri/">Instagram</a>
+              <a href="https://web.facebook.com/ilzam.mulkhaq.1">Facebook Kuncennya</a>
             </div>
             <div className={s.content_menu_list}>
               <a href="#home">Home</a>
-              <a href="#getstarted">Get Started</a>
-              <a href="">FAQ</a>
+              <a href="#timeline">Timeline</a>
             </div>
             <div className={s.content_menu_list}>
-              <a href="#sponsor">Sponsorship</a>
-              <a href="#timeline">Timeline</a>
-              <a href="https://linktr.ee/hackathonsantri">Contact Us</a>
+              <a href="https://kirimwa.id/sponsorship-hackathon">Sponsorship</a>
+              <a href="https://kirimwa.id/tanya-hackahon-santri">Contact Us</a>
             </div>
           </div>
           <p className={s.make_with}>Make With 💙 By Sanjos DEV</p>

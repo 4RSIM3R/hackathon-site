@@ -7,7 +7,7 @@
 }
 
 .logo {
-    width: 75px;
+    width: 100px;
 }
 
 .register_wrapper {
@@ -161,6 +161,13 @@
     align-items: center;
     column-gap: 3rem;
     border: none;
+}
+
+.pasdev_placeholder {
+    width: 400px;
+    height: 100px;
+    object-position: center;
+    object-fit: cover;
 }
 
 .footer_section {
