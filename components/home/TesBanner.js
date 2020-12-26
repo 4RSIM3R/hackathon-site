@@ -31,7 +31,7 @@ const TesBanner = () => {
       <ReactPlayer
         className={s.video_player}
         controls={true}
-        url="https://www.youtube.com/watch?v=UVCP4bKy9Iw"
+        url="https://www.youtube.com/watch?v=QqtZ-FwNuUA"
       />
       <div className={s.event_wrapper}>
         <h2 className={s.event_title} id="getstarted">
